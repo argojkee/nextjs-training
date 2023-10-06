@@ -25,7 +25,7 @@ const Error = () => {
         <title>Error</title>
       </Head>
       <Heading text="404" />
-      <Heading tag="h2" text="Sorry, something went wrong" />
+      <Heading tag="h2" text="Sorry, something went wrong. Please, try again" />
       <Heading
         tag="h3"
         text={`You will be back to home after ${timer}seconds`}
