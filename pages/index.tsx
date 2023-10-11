@@ -27,7 +27,7 @@ const Home = ({ socials }) => {
         <title>Home</title>
       </Head>
       <div className={style.wrapper}>
-        <Heading text="Hello Next.js" />
+        <Heading text="Hello Next.js" tag="h2" />
         <Socials socials={socials} />
       </div>
     </>

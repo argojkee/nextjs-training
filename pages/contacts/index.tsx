@@ -25,7 +25,7 @@ const Contacts = ({ contacts }) => {
       <Head>
         <title>Contacts</title>
       </Head>
-      <Heading text="Contacts page" />
+      <Heading text="Contacts page" tag="h2" />
       <ul>
         {contacts &&
           contacts.map(({ id, name, email }) => (
